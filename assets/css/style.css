@@ -29,7 +29,7 @@ Author URI: http://xpeedstudio.com
 html,
 body {
     font-size: 14px;
-    color: #797979;
+    color: #7c7f7f;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -37,7 +37,7 @@ body {
     font-weight: 400;
     width:100%;
     font-family: 'Raleway', sans-serif;
-    background-color: #add8e6; /* Light blue background color */
+    background-color: #182432; /* Light blue background color */
 }
 
 /*------------------------------------------------------------------*/
