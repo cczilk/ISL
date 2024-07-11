@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
     
     // Set up email parameters
-    $to = "your_email@example.com"; // Replace with your email address
+    $to = "martinmargiela001@gmail.com"; 
     $email_subject = "New Inquiry: " . $subject;
     $email_body = "Name: $name\n";
     $email_body .= "Email: $email\n";
