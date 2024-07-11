@@ -8,7 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Set email parameters
-    $to = "ISLpartsupply@gmail.com"; // Replace with your email address
+    $to = "martinmargiela001@gmail.com"; // replace this email later once setup 
+    // this email only for testing 
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
