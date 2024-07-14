@@ -407,12 +407,18 @@
                                 <div class="widget_item widget_newsletter sm-m-top-50">
                                     <h5 class="text-white">Newsletter</h5>
                                     <form action="https://formspree.io/f/xnnanzdz" method="POST" class="form-inline m-top-30">
+                                        <!-- Only capture email -->
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Enter you Email">
-                                            <button type="submit" class="btn text-center"><i class="fa fa-arrow-right"></i></button>
+                                            <input type="email" class="form-control" name="email" placeholder="Enter your Email" required>
                                         </div>
-
+                                        <!-- Optional: hidden input for the message -->
+                                        <input type="hidden" name="message" value="Newsletter subscription">
+                            
+                                        <button type="submit" class="btn text-center"><i class="fa fa-arrow-right"></i></button>
                                     </form>
+                                </div>
+                            </div>
+                            
                                     <div class="widget_brand m-top-40">
                                         <img src="assets/images/icl.png" alt="ISL">
                                         </p>
