@@ -467,4 +467,16 @@
         <script src="assets/js/main.js"></script>
 
     </body>
+
+    <script>
+        // Get today's date
+        var today = new Date();
+        
+        // Format the date (e.g., July 14, 2024)
+        var options = { year: 'numeric', month: 'long', day: 'numeric' };
+        var formattedDate = today.toLocaleDateString('en-US', options);
+        
+        // Display the formatted date in the element with id="currentDate"
+        document.getElementById('currentDate').textContent = formattedDate;
+    </script>
 </html>
