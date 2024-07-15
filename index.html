@@ -408,7 +408,9 @@
                                     <h5 class="text-white">Newsletter</h5>
                                     <form action="https://formspree.io/f/xnnanzdz" method="POST" class="m-top-30">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Enter you Email">
+                                            <input type="email" class="form-control" name="email" placeholder="Enter your Email" required>
+                                            </div>
+                                            <input type="hidden" name="message" value="Newsletter subscription">
                                             <button type="submit" class="btn text-center"><i class="fa fa-arrow-right"></i></button>
                                         </div>
 
